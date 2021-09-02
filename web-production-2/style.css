@@ -1,0 +1,58 @@
+div {
+  position: relative;
+  left: 80px;
+  top: 2em;
+  background-color: #FCF5E5;
+  padding: 10px;
+  border: 1px #FCF5E5;
+  width: 1000px;
+
+}
+
+body {
+  padding-left: 11em;
+  color: #949494;
+  background-color: black;
+  font-family: Times, sans-serif;
+  
+}
+
+h1 {
+  font-family: Arial Black;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position:  absolute;
+  top: 2em;
+  left: 1em;
+  width: 12em;
+
+}
+
+ul.navbar li {
+  background: #FCF5E5;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid #EBD5B3;
+}
+
+ul.navbar a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #D1CAB5;
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
