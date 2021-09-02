@@ -1,9 +1,3 @@
-let me = (name: "Kelvin", adjectives: ["extremely rusty at coding, couch potato, likes to read"]);
-
-
-
-
-function describeMe()
-{
-  document.querySelector("desciption").innerHTML = me, name;
+function changeColor() {
+  document.body.style.backgroundColor = "#AEA08B";
 }
